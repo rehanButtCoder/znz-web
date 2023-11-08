@@ -1,0 +1,46 @@
+.all-message-main {
+  width: 90%;
+  margin-right: 23px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ededed;
+}
+
+.Header-all-message {
+  width: 100%;
+  height: 140px;
+  text-align: center;
+  margin-top: 10px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Header-all-message h2 {
+  line-height: 60.51px;
+
+  font-weight: 600;
+}
+.mesg-all {
+  color: #ffc700;
+}
+
+.message-content {
+  margin-top: 10px;
+  height: 937px;
+
+  background-color: #ffffff;
+  border-radius: 12px;
+}
+
+@media screen and (max-width: 576px) {
+  .all-message-main {
+    border: 1px solid black;
+    min-height: 500px;
+    width: 100%;
+    margin-right: 23px;
+    display: flex;
+    flex-direction: column;
+  }
+}

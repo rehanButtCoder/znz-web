@@ -1,0 +1,16 @@
+.mt40{
+    margin-top: 40px;
+}
+.trustedMain img {
+    width: 100%;
+}
+
+.trusted {
+    margin-bottom: 80px;
+}
+
+@media screen and (max-width:768px) {
+    .mainbannerTextPart{
+    margin-bottom: 32px;
+}
+}

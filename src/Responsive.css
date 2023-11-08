@@ -1,0 +1,28 @@
+@media(max-width:1025px){
+    
+}
+
+@media(max-width:769px){
+    
+}
+
+@media(max-width:576px){
+    .profileHead .what-we-serve{
+      line-height: 43px;
+      font-size: 39px;
+      }
+      .main-side-bar{
+        display: none;
+      }
+    
+    
+    
+}
+
+@media(max-width:400px){
+  .profileHead h2{
+    font-size: 36px;
+    line-height: 43px;
+  }
+ 
+}

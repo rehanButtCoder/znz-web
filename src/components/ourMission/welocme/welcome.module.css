@@ -1,0 +1,176 @@
+.sec1 {
+
+    width: 100%;
+
+    background-image: url('../../images/aboutPageBackground.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    background-position: center;
+    
+}
+
+.sec1_left {
+    
+    width: 100%;
+    margin-top: 200px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+   
+    flex-direction: column;
+ 
+}
+.sec1_left h1{
+    text-transform: capitalize;
+    color: aliceblue;
+
+    
+}
+.sec1_left h6{
+    color: white;
+
+}
+
+.sec1_right {
+    box-sizing: content-box;
+
+  
+}
+
+.sec1_right img {
+    width: 100%;
+    margin-bottom: 36px;
+    margin-top: 57px;
+    margin-left: -116px;
+
+}
+
+
+
+@media screen and (min-width:800px) and (max-width:1000px) {
+    .sec1{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        max-height: 400px;
+    }
+
+    .sec1_left{
+        
+        margin-top: 106px;
+      
+    
+    }
+    .sec1_right img{
+        width: 100%;
+       
+        margin-bottom: 22px;
+        margin-top: 34px;
+        margin-left: -64px;
+    
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .sec1{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        max-height: 400px;
+    }
+
+    .sec1_left{
+        
+        margin-top: 0;
+    
+    }
+    .sec1_right img{
+        margin-bottom: 22px;
+        width: 91%;
+        margin-top: 61px;
+        margin-left: -22px;
+    
+    
+}
+
+}
+
+@media only screen and (max-width:768px) {
+    .sec1{
+      
+        width: 100%;
+       
+    }
+
+    .sec1_left{
+        
+        margin-top: 0px;
+   
+    }
+    .sec1_right img{
+     
+      margin-top: -12px;
+    margin-bottom: 49px;
+    width: 64%;
+    margin-left: 152px;
+}}
+
+
+@media screen and (min-width:665px)and (max-width:700px) {
+    .sec1{
+      
+        width: 100%;
+       
+    }
+
+    .sec1_left{
+        
+        margin-top: 0px;
+     
+    
+    }
+    .sec1_right img{
+        margin-top: -90px;
+        margin-bottom: 59px;
+        width: 61%;
+        margin-left: 237px;
+}
+
+}
+@media only screen and (max-width:665px) {
+    .sec1{
+      
+       width: 100%;
+       background-image: none;
+       
+    }
+
+    .sec1_left{
+        
+       display: none;
+    
+    }
+    .sec1_right img{
+        width: 100%;
+    margin-left: -19px;
+    margin-top: 7px;
+    
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

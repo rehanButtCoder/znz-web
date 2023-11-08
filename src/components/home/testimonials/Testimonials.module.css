@@ -1,0 +1,57 @@
+.usrBox {
+    background: #ffffff;
+    border: 1px solid #ededed;
+    cursor: grab;
+    box-shadow: 0px 4px 20px rgba(49, 49, 49, 0.08);
+}
+.usrBoxContainer {
+    min-height: 200px;
+    padding: 19px 19px 35px 30px;
+    border-bottom: 1px solid #eaeff3;
+    
+    
+}
+.usrBoxBottom {
+    padding: 14px 19px 19px 30px;
+    display: flex;
+    align-items: baseline;
+    /* background-color: aquamarine; */
+
+}
+.usrStars img {
+    width: 6%;
+}
+
+.testimonialImg {
+    border-radius: 50%;
+    width: 60px;
+    /* display: flex; */
+    /* justify-content: flex-end;
+    align-items: center; */
+    height: 60px;
+    object-fit: cover;
+    margin-right: 14px;
+}
+@media screen and (max-width:1200px) and (min-width:900px){
+    .usrBoxContainer{
+        min-height: 260px;
+
+
+
+    }
+}
+@media screen and (max-width:1000px) {
+    .usrBoxContainer{
+min-height: 380px;
+
+
+    }
+}
+@media screen and (max-width:768px){
+    .usrBoxContainer{
+       min-height: 132px;
+       
+            }
+        
+        
+}

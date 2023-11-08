@@ -1,0 +1,65 @@
+/* profile image css  */
+.image__container {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image {
+    width: 211px;
+    height: 211px;
+    object-fit: cover;
+    border: 6px solid #ffc700;
+    border-radius: 50%;
+    padding: 4px;
+    margin-bottom: 10px;
+    vertical-align: middle;
+    background-position: center;
+    background-size: cover;
+  }
+  .show__image {
+    opacity: 1;
+  }
+  .no__image {
+    display: none;
+  }
+  .upload_container {
+    position: relative;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .pic__upload__btn {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    padding: 14px 29px;
+    border-radius: 32px;
+    width: 40%;
+    display: inline-block;
+    text-align: center;
+    margin-right: 12px;
+    margin-bottom: 40px;
+    background: #ffc700;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .pic__upload__btn:disabled {
+    opacity: 0.35;
+  }
+
+  @media (max-width:440px){
+    .pic__upload__btn{
+      width: 60%;
+    }
+  }

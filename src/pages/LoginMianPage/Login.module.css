@@ -1,0 +1,307 @@
+/* .main_container_login {
+  margin-top: 40px;
+} */
+.formLoginMain {
+  background-image: url();
+}
+.Login_left img {
+  width: 100%;
+  max-height: 600px;
+}
+.none{
+  display: none;
+}
+.formLoginMain {
+  width: 100%;
+  background: url(/public/asserts/images/loginForm.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: darken;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.login_heading {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 17px;
+  color: #ffc700;
+}
+.login_para {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #474749;
+}
+.loginLogo {
+  width: 150px;
+  margin: auto;
+  display: block;
+  margin-bottom: 17px;
+}
+.main_container_login {
+
+}
+.main_container_login .inp {
+  background: #f8f8f8;
+  border: 1px solid #eaeff3;
+  border-radius: 15px;
+  box-shadow: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #686868;
+  padding: 10px 15px;
+  width: 100%;
+  outline: none;
+}
+.btn_login_outer {
+  margin-top: 27px;
+  text-align: center;
+}
+.inderline a {
+  color: #ffc700;
+  text-decoration: underline;
+  font-weight: 600;
+}
+.btn_login {
+  margin-top: 30px;
+  width: 20%;
+  border-radius: 15px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 0.75px;
+  padding: 10px 10px;
+  text-align: center;
+}
+
+.forgot_pswrd {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 32px;
+  color: #9c9c9c;
+  text-decoration: none;
+}
+
+.Login_signInMain {
+  /* width: 100%; */
+  max-width: 576px;
+  margin: auto;
+  box-shadow: 0px 2px 18px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 14px 20px;
+  min-height: 423px;
+  background-color: white;
+}
+
+.signInMain {
+  width: 100%;
+  max-width:502px;
+  margin: auto;
+  box-shadow: 0px 2px 18px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 28px 40px;
+  min-height: 405px;
+  background-color: white;
+}
+.formInputs {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  /* identical to box height */
+
+  color: #7f7e83;
+}
+
+
+/* loader  */
+.ldsripple {
+  display: inline-block;
+  position: relative;
+  width: 10px;
+  height:10px;
+}
+.ldsripple div {
+  position: absolute;
+  border: 5px solid white;
+  opacity: 1;
+  border-radius: 50%;
+  animation: ldsripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+.ldsripple div:nth-child(2) {
+  animation-delay: -0.5s;
+}
+@keyframes ldsripple {
+  0% {
+    top: 36px;
+    left: 36px;
+    width: 0;
+    height: 0;
+    opacity: 0;
+  }
+  4.9% {
+    top: 36px;
+    left: 36px;
+    width: 0;
+    height: 0;
+    opacity: 0;
+  }
+  5% {
+    top: 36px;
+    left: 36px;
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+    width: 50px;
+    height: 50px;
+    opacity: 0;
+  }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+  .main_container_login {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 430px;
+    box-sizing: border-box;
+  }
+
+  .main_container_login .inp {
+    background: #f8f8f8;
+    border: 1px solid #eaeff3;
+    border-radius: 15px;
+    box-shadow: none;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #686868;
+    padding: 20px 24px;
+    width: 100%;
+    outline: none;
+  }
+
+  .btn_login {
+    margin-top: 30px;
+    width: 30%;
+    border-radius: 15px;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 0.75px;
+    padding: 10px 20px;
+
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .main_container_login {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    box-sizing: border-box;
+   
+  }
+
+  .main_container_login .inp {
+    background: #f8f8f8;
+    border: 1px solid #eaeff3;
+    border-radius: 15px;
+    box-shadow: none;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #686868;
+    padding: 13px 24px;
+    width: 100%;
+    outline: none;
+  }
+
+  .btn_login {
+    border-radius: 4px;
+    padding: 4px 5px;
+
+    font-weight: lighter;
+  }
+  .btn_login_outer {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width:576px) {
+
+  .signInMain{
+    width: 100%;
+    
+    min-height: 300px !important;
+    
+  }
+  .main_container_login {
+    width: 80%;
+
+  
+  
+
+  }
+
+
+  .signInMain{
+    
+  }
+  .Login_in .inp{
+    background: #f8f8f8;
+    border: 1px solid #eaeff3;
+    border-radius: 15px;
+    box-shadow: none;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #686868;
+    padding: 4px 23px;
+    width: 100%;
+    outline: none;
+  }
+  button {
+    font-weight: 400;
+    font-size: 18px;
+    background-color: #ffc700;
+    height: 36px !important;
+    width: 101px;
+    color: white;
+}
+}
+

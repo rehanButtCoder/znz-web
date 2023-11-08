@@ -1,0 +1,66 @@
+.main__container {
+  margin-top: 80px;
+}
+.title {
+  margin-bottom: 20px;
+  line-height: 55px !important;
+  font-weight: 700;
+  font-size: 45px !important;
+  line-height: 55px !important;
+}
+.green {
+  color: #e50914 !important;
+  font-size: 45px !important;
+  line-height: 55px !important;
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+}
+.subtitle {
+  color: #6f6f6f;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+}
+/* cards styling  */
+.box {
+  background: #ffffff;
+  border: 1px solid #ededed;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+  padding: 33px 22px;
+  margin-bottom: 44px;
+  min-height: 250px;
+}
+.box > h4 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #e50914;
+  margin-bottom: 15px;
+  margin-top: 17px;
+}
+.box > p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 20px;
+  color: #898a8d;
+  margin-top: 8px;
+  opacity: 0.9;
+}
+
+@media (max-width: 450px) {
+  .title,
+  .green {
+    text-align: center;
+    font-size: 30px !important;
+    line-height: 40px !important;
+  }
+  .subtitle{
+    text-align: center;
+  }
+}

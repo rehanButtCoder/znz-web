@@ -1,0 +1,154 @@
+.buyer_seller_main{
+    min-height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -50px;
+
+}
+.cstm-row-buyer{
+
+    width: 60%;
+    min-height: 500px;
+
+ 
+
+}
+.all-contents{
+    width: 80%;
+    margin: 0 auto;
+    margin-top:20px;
+}
+.all-contents h2 span{
+    color: #ffc700;
+}
+.seller-box{
+    width: 100%;
+    min-height: 120px;
+
+    border-radius: 12px;
+    margin-bottom: 20px;
+    display: flex;
+
+}
+.buyer-box{
+    width: 100%;
+    min-height: 120px;
+    display: flex;
+    border-radius: 12px;
+
+}
+.looking-todo{
+    margin-bottom: 10px;
+}
+.last-content-buyer-box{
+    margin-top: 10px;
+    display: flex;
+    gap: 5px;
+
+}
+
+
+.byer-login{
+    color: #ffc700;
+}
+
+.check-box-buyer{
+    width: 20%;
+;
+    box-sizing: border-box;
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.inner-buyer-content{
+    width: 80%;
+
+    padding: 14px 10px;
+    
+}
+.check-box-seller{
+    width: 20%;
+
+    box-sizing: border-box;
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-seller-content{
+    width: 80%;
+ 
+    padding: 14px 10px;
+}
+.check-inp{
+    width: 20px;
+    height: 20px;
+  
+    border-radius: 50%;
+    vertical-align: middle;
+   border: 3px solid #ffc700;
+    appearance: none;
+    margin: 1px ;
+   
+    
+  
+}
+.check-inp:checked {
+    background-color: rgb(22, 175, 35);
+
+}
+@media screen and (max-width:768px) {
+
+    .buyer_seller_main{
+    min-height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.cstm-row-buyer{
+
+    width: 80%;
+    min-height: 500px;
+
+ 
+
+}
+}
+@media screen and (max-width:576px) {
+
+    .buyer_seller_main{
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    
+
+}
+.cstm-row-buyer{
+
+    width: 90%;
+    min-height: 420px;
+
+ 
+
+}
+.all-contents h2{ font-size: 22px;
+
+}
+.last-content-buyer-box {
+    margin-top: 10px;
+    padding-bottom: 16px;
+    display: flex;
+    gap: 5px;
+}
+
+.last-content-buyer-box p{
+    font-size: 10px;
+ 
+}
+}

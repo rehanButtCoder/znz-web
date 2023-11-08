@@ -1,0 +1,43 @@
+.typography > h2 {
+  margin-bottom: 30px;
+  font-weight: 500;
+  color: white;
+  margin-left: 80px;
+  font-size: 40px !important;
+  line-height: 55px !important;
+  font-family: "Manrope", sans-serif;
+}
+.typography > div {
+  margin-left: 80px;
+}
+.inner__container {
+  background-color: rgba(207, 49, 43, 0.5);
+  padding: 70px 0px;
+  border-radius: 20px;
+  position: relative;
+  margin-bottom: 80px;
+}
+.image__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.girl {
+  position: absolute;
+  bottom: 0;
+  background-size: cover;
+  object-fit: contain;
+}
+
+@media (max-width: 680px) {
+  .girl {
+    top: 100px;
+    width: 215px;
+    height: 215px;
+  }
+  .typography > h2,
+  .typography > div {
+    font-size: 18px !important;
+    margin-left: 5px;
+  }
+}

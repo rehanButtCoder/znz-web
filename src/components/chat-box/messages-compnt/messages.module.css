@@ -1,0 +1,32 @@
+.search__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 28px;
+}
+.search__box > div {
+  border-radius: 5px;
+  border: 1px solid #e4e4e4;
+  background: #fff;
+  width: 336px;
+  padding: 12px 117px 12px 15px;
+}
+.search__box > div > input {
+  outline: none;
+  border: none;
+  color: #6c757d;
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.person__message{
+  border-bottom:1px solid #E4E4E4;
+}
+
+@media (max-width:1120px){
+  .search__box > div{
+    width: 100%;
+  } 
+}

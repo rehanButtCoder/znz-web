@@ -1,0 +1,126 @@
+.main__container {
+  background-color: #f1f1f1 !important;
+  height: 100%;
+  width: 100%;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+.header {
+  border-radius: 12px;
+  background: #fff;
+  padding: 36px 0px 43px 0px;
+  /* margin: 0px 20px; */
+  margin-left: 20px;
+}
+.header > h2 {
+  color: #050505;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.header > h2 > span {
+  color: var(--ffc-700, #ffc700);
+}
+
+/* chatbox  */
+.chatbox__container {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.chat__box {
+  width: 97%;
+  height: 100vh;
+  overflow: scroll;
+  border-radius: 12px;
+  background: #fff;
+  overflow: hidden;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.chat__box {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+}
+.resp__chats {
+  display: none;
+}
+.messages__container {
+  display: flex;
+}
+.toggle__chat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin: 10px; */
+  position: relative;
+  /* padding: 10px; */
+
+}
+.chat__count {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 11.5px;
+  background: var(--ffc-700, #ffc700);
+  display: flex;
+  width: 18px;
+  height: 18px;
+  /* padding: 2.5px 4.161px 2.5px 4.359px; */
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: "Inter";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0px;
+}
+.toggle__chat > img {
+  width: 36px;
+  /* background-color: #969696; */
+}
+.side__chat__bar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+
+}
+.side__chat__bar > p{
+  color: #969696;
+font-family: 'Inter';
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px; /* 150% */
+}
+@media (max-width: 996px) {
+  .header > h2{
+    font-size: 32px;
+  }
+  .chat__box {
+    width: 97%;
+    margin-left: 20px;
+  }
+  .respnsive {
+    max-width: 90%;
+    margin-left: 10%;
+  }
+  .resp__chats {
+    display: flex;
+  }
+  .messages__container {
+    display: none;
+  }
+  .respsive__side__chat {
+    visibility: visible;
+  }
+}

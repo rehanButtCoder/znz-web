@@ -1,0 +1,251 @@
+.main-c1 {
+
+    min-height: 500px;
+    background-color: #FFFFFF;
+
+}
+
+
+.main-all-notifi {
+
+    width: 90%;
+    max-width: 1573px;
+    margin-left: 20px;
+
+}
+
+.main-header-notifi {
+    width: 98%;
+    min-height: 140px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 16px;
+    display: flex;
+    background: #FFF;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-header-notifi .word-notifi {
+    color: #ffc700;
+
+}
+
+.content-container-all-notific {
+    width: 90%;
+    min-height: 630px;
+    /* margin: 21px auto; */
+    margin-left: 15px;
+    text-align: center;
+    padding: 2px 1px;
+    border-radius: 12px;
+    margin-top: 10px;
+
+
+
+
+}
+
+.inner-content-all-notifi {
+    width: 100%;
+    min-height: 554px;
+
+    /* background-color: aqua; */
+
+}
+
+.cntnt-user {
+    width: 98%;
+    min-height: 133px;
+    margin: 31px auto;
+    display: flex;
+    justify-content: center;
+
+    border-radius: 8px;
+    border-bottom: 0.5px solid #EDEDED;
+    background: #F3F3F3;
+    box-shadow: 0px 1px 0px 0px #E4E8EE;
+}
+
+.img-c-left {
+    width: 10%;
+    border-radius: 8px;
+    border-bottom: 0.5px solid #EDEDED;
+
+    background: #F3F3F3;
+
+}
+
+.img-c-left img {
+    width: 48px;
+    height: 48px;
+    margin-top: 12px;
+    margin-left: 10px;
+
+}
+
+.inner-desc-c-right {
+    width: 90%;
+    display: flex;
+
+    flex-direction: column;
+    flex-shrink: 0;
+
+
+
+
+}
+
+.inner-desc-c-right h4 {
+    text-align: left;
+    /* Dennis Nedry */
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 18px;
+    /* identical to box height, or 125% */
+
+    color: #1A1F36;
+
+
+
+
+}
+
+.inner-desc-c-right p {
+    text-align: left;
+    /* Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur ma Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur ma */
+
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    /* or 157% */
+
+    color: #1A1F36;
+
+    opacity: 0.5;
+
+
+
+
+
+}
+
+.time-of-inner-user {
+
+    margin-top: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    /* Knock/gray-200 */
+    color: #A5ACB8;
+
+
+}
+
+
+
+@media screen and (min-width:1000px)and (max-width:1500px) {
+    .main-c1 {
+
+        margin-left: 108px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+
+    .content-container-all-notific {
+        width: 94%;
+        min-height: 630px;
+
+        margin-left: 15px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .main-header-notifi {
+        width: 94%;
+        min-height: 140px;
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-c-left {
+        width: 10%;
+        background-color: #EDEDED;
+        padding: 0 -1px;
+        margin: 0 11px;
+    }
+
+    .inner-desc-c-right {
+
+        position: relative;
+
+        padding: 0 6px;
+        min-height: 170px;
+    }
+
+
+}
+
+@media screen and (max-width:768px) {
+
+
+    .main-c1 {
+        min-height: 500px;
+
+    }
+
+
+    .cntnt-user {
+        width: 95%;
+        min-height: 207px;
+        margin: 31px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+
+
+}
+
+@media screen and (max-width:576px) {
+
+
+
+
+
+    .cntnt-user {
+        width: 98%;
+        min-height: 133px;
+        margin: 31px auto;
+        display: flex;
+        justify-content: center;
+        border-radius: 8px;
+        border-bottom: 0.5px solid #EDEDED;
+        background: #F3F3F3;
+        box-shadow: 0px 1px 0px 0px #E4E8EE;
+    }
+
+
+
+}

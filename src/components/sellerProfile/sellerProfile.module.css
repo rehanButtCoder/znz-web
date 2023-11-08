@@ -1,0 +1,624 @@
+.main__container{
+  background: #f8f8f8 !important;
+}
+.ml40 {
+  padding-left: 40px !important;
+  background: #F8F8F8;
+}
+.seller__page__contnr {
+  
+  margin: 0;
+  padding: 0;
+  padding-top: 20px;
+}
+.cards__container {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+}
+.user__title {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 36px 0px;
+  margin: 0px 20px;
+}
+.user__title > h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 61px;
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #050505;
+}
+.user__title > h2 > span {
+  color: #ffc700;
+}
+
+/* user profile card  */
+.user__profile__card {
+  padding-top: 38px;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.075);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.chat__card {
+  padding: 38px;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.075);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.user__image {
+  position: relative;
+}
+.user__image > .image > img {
+  height: 50%;
+  width: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: contain;
+  vertical-align: center;
+  border-radius: 12px;
+}
+.user__camera {
+  width: 37px;
+  position: absolute;
+  top: 80%;
+  right: 20%;
+}
+.user__name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.user__name > img {
+  width: 18px;
+}
+.user__name > .name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 29px;
+  color: #6f6f6f;
+}
+.service_text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.75px;
+  color: #6f6f6f;
+}
+.user_profile_sectn {
+  margin: 14px 0px 38px 0px;
+}
+
+/* bank style  */
+.bank_image {
+  background: url("/public/asserts/images/seller-page/dollar.png");
+  height: 80px;
+  width: 100px;
+}
+.bank__amount > h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+  color: #1e1d1c;
+  margin: 28px 0px 18px 0px;
+}
+.balance__tilte {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  color: #888888 !important;
+  opacity: 0.8;
+}
+.seprator {
+  background: #4c4d4d;
+  opacity: 0.1;
+  height: 1px;
+  width: 100%;
+}
+.withdraw__sectn {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.withdraw_btn {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+
+  color: #ffc700;
+}
+
+/* help card  */
+.help__desc_contnr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.help_image {
+  background: url("/public/asserts/images/seller-page/help.png");
+  height: 73px;
+  width: 100px;
+}
+.help__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 25px;
+  color: #1e1d1c;
+}
+.help__desc {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  text-align: center;
+  color: #888888;
+  width: 247px;
+  max-width: 90%;
+}
+.chat__btn {
+  background: #ffc700;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+}
+.chat__btn > button {
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  border: none;
+}
+
+/* account section  */
+
+.personal__detail__container {
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.075);
+  border-radius: 8px;
+  margin: 20px;
+}
+.title__section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+}
+.title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 25px;
+  align-items: center;
+  color: #1e1d1c;
+}
+.edit__btn > img {
+  color: #ffc107;
+  width: 16px;
+  height: 14px;
+}
+.update__btn {
+  color: #ffc107 !important;
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16.8px;
+  text-transform: uppercase;
+  background: none !important;
+  border: none !important;
+  padding: 0;
+  margin: 0;
+  width: 0;
+}
+.edit__btn > a {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  justify-content: center;
+  text-transform: uppercase;
+
+  color: #ffc107;
+}
+.user__nme {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  /* or 180% */
+
+  display: flex;
+  align-items: center;
+
+  /* #888888 */
+
+  color: #888888;
+}
+.user__detail {
+  padding-left: 60px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  gap: 11px;
+  margin-bottom: 28px;
+}
+.user {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+
+  color: #4c4d4d;
+}
+
+.personal__detail {
+  margin-top: 46px;
+}
+
+/* active status btn  */
+.active__status {
+  background: #ffc107;
+  border-radius: 8px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+  padding: 2px 5px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+
+  color: #ffffff;
+}
+.active__status > img {
+  width: 16px;
+  height: 16px;
+}
+
+/* second section  */
+
+/* resposiveness  */
+@media (max-width: 1250px) and (min-width: 980px) {
+  .bank__amount > h2 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 500px) {
+  .user__title > h2 {
+    font-size: 32px;
+  }
+  .ml40 {
+    padding-left: 0 !important;
+  }
+  .gigs__contnr {
+    padding: 12px;
+  }
+}
+@media (max-width: 340px) {
+  .user__title > h2 {
+    font-size: 24px;
+  }
+  .gigs__contnr {
+    padding: 12px;
+  }
+}
+@media (max-width: 340px) {
+  .user__detail {
+    padding-left: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 11px;
+    margin-bottom: 28px;
+  }
+}
+
+
+/* edit button csss  */
+.modal__btn{
+  display: flex;
+width: 109px;
+height: 48px;
+padding: 14.069px 27px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+border-radius: 10px;
+background:  #FFC700 !important;
+color: white !important;
+border: none !important;
+}
+.form__sectn{
+  padding: 10px;
+}
+.form__title > h2 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 62px;
+  /* identical to box height */
+  text-align: center;
+  /* #FFC700 */
+  color: #ffc700;
+  margin-top: 104px;
+}
+.form__style {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.frm_contnr {
+
+  background: #ffffff;
+  border: 1px solid #cdcdcd;
+  border-radius: 48px;
+  display: flex;
+  align-items: center;
+  padding: 8px 32px;
+width: 100%;
+  margin-bottom: 24px;
+}
+/*   */
+.frm_contnr > .form__inpt {
+  outline: none;
+  border: none;
+  margin-left: 8px;
+  width: 100%;
+  color: #888888;
+}
+.frm_contnr > ::placeholder {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  color: #b4b4b4;
+}
+.frm__inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  margin-bottom: 24px;
+}
+.role__style {
+  border: none;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  color: #b4b4b4;
+  width: 100%;
+  outline: none;
+  height: 24px;
+}
+.role__style option {
+  width: 40%;
+  border: none;
+  outline: none;
+  transition: all 1s ease-in-out;
+}
+.role__style:hover {
+  cursor: pointer;
+}
+
+/* phone input  */
+
+/* checkbox style  */
+.check__contnr {
+  position: relative;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.agreement {
+  display: flex;
+  align-items: center;
+}
+.agreement input[type="checkbox"] {
+  background-color: #ffc700;
+}
+.agreement > h4 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 16px;
+  margin-bottom: 0;
+}
+.terms_condition {
+  font-weight: 600;
+  color: #ffc700;
+}
+
+/* submit btn  */
+.submit_btn_continer {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  margin: 48px auto;
+}
+.sbmt__btn {
+  background: #ffc700;
+  border-radius: 48px;
+  border: none;
+  color: white;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 12px 15px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 190px;
+}
+.innerText {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.innerText p {
+  margin: 10px 0;
+}
+.innerText h5 {
+  margin-bottom: 25px;
+}
+/* already sign in  */
+.already__sign > h4 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #888888;
+}
+.already__sign > h4 > span > a {
+  color: #ffc700;
+  font-weight: 600;
+}
+.modal-dialog.modal-lg.modal-dialog-centered {
+  margin-top: 80px;
+}
+.already__sign > h4 > span:hover {
+  cursor: pointer;
+}
+.txt__area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.txt__area {
+ width: 100%;
+  height: 120px;
+  padding: 12px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-size: 16px;
+  resize: none;
+  background: #ffffff;
+  border: 1px solid #cdcdcd;
+  outline: none;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  color: #b4b4b4;
+}
+.txt__area1 {
+  width: 100%;
+  height: 70px;
+  padding: 12px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-size: 16px;
+  resize: none;
+  background: #ffffff;
+  border: 1px solid #cdcdcd;
+  outline: none;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  color: #b4b4b4;
+  margin-bottom: 18px;
+}
+
+.imageSize {
+  width: 140px;
+  border-radius: 50%;
+  border: 5px solid #ffc700;
+  padding: 5px;
+  height: 140px;
+  object-fit: cover;
+  margin: auto;
+  margin-bottom: 20px;
+}
+/* --------------------------------  */
+
+.erorMsg {
+  color: red;
+  margin-top: -20px;
+  margin-bottom: 13px;
+  font-size: 13px;
+  margin-left: 11px;
+}
+
+/* second colm  */
+.pic__colm {
+  background: url("../../utils/images/form_side_pic.png"), #c4c4c4;
+  border-radius: 0px 32px 32px 0px;
+  background-size: cover;
+  object-fit: contain;
+  background-position: center;
+  height: 100%;
+}
+.col__paddng {
+  padding: 0px !important;
+}
+.dollar {
+  color: #888888;
+}
+
+.service__title {
+  outline: none;
+  border: none;
+  margin-left: 8px;
+  width: 100%;
+  color: #888888;
+}

@@ -1,0 +1,114 @@
+.title {
+  color: #050505;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-bottom: 40px;
+  margin-top: 60px;
+}
+.title > span {
+  color: #ffc700;
+}
+.detail__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -50px;
+  z-index: 9999;
+}
+.back__image > img {
+  background-size: cover;
+  object-fit: contain;
+  /* background-position: center; */
+  border-radius: 12px;
+  width: 1500px;
+  height: 100%;
+  z-index: -999;
+}
+.image__container {
+  width: 100%;
+}
+.job__detail {
+  background: #fff;
+  box-shadow: 0px 2px 68px 0px rgba(0, 0, 0, 0.16);
+  padding: 20px 28px;
+  width: 95%;
+}
+.search__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1px solid #c9c9c9;
+  /* opacity: 0.699999988079071; */
+  background: #fff;
+  padding: 20px 40px;
+}
+
+.search__bar > img {
+  width: 22px;
+  height: 22px;
+}
+.search__bar {
+  width: 428px;
+  height: 48px;
+  border-radius: 8px;
+  background: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 0px 24px;
+}
+.search__bar > input {
+  outline: none;
+  color: #000;
+  font-size: 16px;
+  font-family: "Inter";
+  font-weight: 500;
+  opacity: 0.20000000298023224;
+  background-color: #f4f4f4;
+  border: none;
+  margin-left: 12px;
+}
+
+/* search btn  */
+.search__btn {
+  border-radius: 8px;
+  background: #ffc700;
+  padding: 14px 26.63px 14px 26.629px;
+  color: white;
+}
+.search__btn:hover {
+  cursor: pointer;
+}
+
+/* responsiveness  */
+@media (max-width: 1200px) {
+  .search__container {
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+  }
+}
+@media (max-width: 590px) {
+  .container {
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: 100%;
+  }
+  .search__bar {
+    width: 100%;
+  }
+}
+
+@media (max-width: 390px) {
+  .search__bar {
+    padding: 0;
+  }
+  .job__detail {
+    padding: 28px 5px;
+  }
+}

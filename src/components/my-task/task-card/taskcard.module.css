@@ -1,0 +1,102 @@
+.card {
+  /* width: 245px; */
+  height: 300px;
+  border-radius: 12px;
+  border: 1px solid #ededed;
+  background: #fff;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.11);
+  /* margin: 28px; */
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 8px;
+}
+.card > img {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  background-size: cover;
+}
+
+.card > p {
+  color: #9c9c9c;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.card > h2 {
+  color: var(--ffc-700, #ffc700);
+  text-align: center;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+.card > .buttons > .continue__btn {
+  border-radius: 8px;
+  border: 1px solid var(--ffc-700, #ffc700);
+  background: var(--ffc-700, #ffc700);
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.08);
+  display: flex;
+  width: 111.222px;
+  height: 39px;
+  padding: 15px 30px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  color: var(--f-8-f-8-f-8, #f8f8f8);
+  text-align: center;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.card > .buttons > .visit__btn {
+  border-radius: 8px;
+  border: 1px solid var(--ffc-700, #ffc700);
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.08);
+  display: flex;
+  width: 100% !important;
+  height: 39px !important;
+  padding: 15px 30px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  color: var(--ffc-700, #ffc700);
+  text-align: center;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: none;
+}
+
+@media (max-width: 1020px) {
+  .card {
+    width: auto;
+}
+}
+@media (max-width: 440px) {
+  .card {
+    margin: 0;
+    margin: 12px;
+  }
+}

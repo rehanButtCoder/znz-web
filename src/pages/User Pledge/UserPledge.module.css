@@ -1,0 +1,136 @@
+.title {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 45px;
+  }
+  .title > span {
+    color: #ffc700;
+  }
+  .date {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 45px;
+    color: #000000;
+  }
+  .para{
+    padding: 40px;
+  }
+  .para > p{
+    font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #707070;
+  max-width: 100%;
+  }
+  
+  /* table of content style  */
+  .table__content__container > h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 45px;
+    color: #202020;  
+  }
+  .table__content__container > ol > li{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+    color: #FFC700;
+    counter-increment: cupcake;
+    list-style: none;
+    
+    
+  }
+  .table__content__container > ol > li:before  {
+    content: counters(cupcake, '') '.';
+    font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 40px;
+  color: #000000;
+  
+  }
+  
+  
+  
+  /* general terms  */
+  .general__term > h2,
+  .information__collection > h2 {
+    font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 45px;
+  /* or 141% */
+  
+  
+  color: #FFC700;
+  
+  }
+  .desc{
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .desc__title{
+    font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  
+  
+  color: #707070;
+  }
+  .desc > ul{
+    margin-top: 20px;
+  }
+  .desc > ul > li {
+  
+    font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  
+  
+  color: #707070;
+  }
+  .para__desc {
+    margin: 20px 0px;
+  }
+  .para__desc > p, .headings__para > p{
+    font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  
+  color: #707070;
+  
+  }
+  .headings__para{
+    margin: 20px 0px;
+  }
+  .headings__para > p > span{
+    color: #707070;
+    font-weight: 600;
+  }
+   
+
+  @media(max-width:768px){
+    .main__container > h2,.general__term > h2{
+        font-size: 24px;
+    }
+  }

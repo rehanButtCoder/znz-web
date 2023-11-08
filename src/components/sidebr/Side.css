@@ -1,0 +1,51 @@
+.main-side-bar{
+    width: 100%;
+}
+.side {
+    width: 7%;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    position: fixed;
+    left: 0;
+    background-color: white;
+}
+.side-ic {
+margin-top: 30px;
+    width: 90%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.side-ic-last{
+    margin-top:200px;
+    width: 90%;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .navlink{
+   
+    
+
+} */
+.side-ic:hover{
+    .navlink > svg  > path  {
+        stroke: #FFC700;
+     }
+     cursor: pointer;
+}
+.side-ic:nth-child(5){
+    margin-top:200px;
+    width: 90%;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

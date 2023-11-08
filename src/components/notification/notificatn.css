@@ -1,0 +1,31 @@
+.modal-body {
+  padding: 0;
+}
+.reltve {
+  position: relative;
+}
+.right-modal .modal-dialog {
+  position: absolute;
+  right: 10%;
+  top: 5%;
+  /* transform: translateY(-50%);   */
+}
+
+.right-modal .modal-content {
+  max-width: 100%;
+  min-width: 457px;
+  min-height: 100%;
+}
+
+@media (max-width: 450px) {
+  .right-modal .modal-content {
+    max-width: 100%;
+    min-width: 100%;
+  }
+  .right-modal .modal-dialog {
+    position: absolute;
+    right: 0;
+    top: 20%;
+    /* transform: translateY(-50%);   */
+  }
+}

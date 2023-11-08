@@ -1,0 +1,189 @@
+.main__container {
+  margin-bottom: 120px;
+  margin-left: 38px;
+}
+.inner__container {
+  background: #fff !important;
+
+  
+}
+.inner__container > h2 {
+  color: #000;
+  font-family: "Inter";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 28px;
+}
+.inner__container > h2 > span {
+  color: var(--ffc-700, #ffc700);
+}
+.card__container {
+  border-radius: 12px;
+  border: 1px solid #ededed;
+  background: #fff;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.11);
+  /* margin: 28px; */
+  /* margin-left: 28px; */
+  width: 100%;
+  padding: 24px;
+ 
+}
+
+/* detail container  */
+.detail__container {
+  border-radius: 12px;
+  border: 1px solid #ededed;
+  background: #fff;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.11);
+  margin-top: 40px; 
+  padding: 40px 32px;
+}
+.icon__style > img {
+  width: 25px;
+  height: 24px;
+}
+.single__detail {
+  display: flex;
+  align-items: start;
+  gap: 14px;
+  margin: 24px;
+}
+.detail__content {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 8px;
+}
+.detail__title {
+  color: var(--ffc-700, #ffc700);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.75px;
+  text-decoration-line: underline;
+}
+.subtitle {
+  color: #9c9c9c;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Inter";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 160% */
+  letter-spacing: 0.75px;
+}
+/* description */
+.task__description {
+    width: 705px;
+  border-radius: 12px;
+  border: 1px solid #ededed;
+  background: #fff;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.11);
+  padding: 28px;
+  margin-top: 40px;
+}
+.task__description > h4 {
+  color: var(--ffc-700, #ffc700);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.75px;
+}
+.task__description > p {
+  color: #9c9c9c;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.75px;
+}
+.go__back__btn {
+  margin: 28px;
+}
+
+/* end buttons  */
+.buttons {
+  display: flex;
+  align-items: start;
+  gap: 16px;
+  padding: 40px 28px;
+}
+.invite__btn {
+  border-radius: 12px;
+  border: 1px solid #fff;
+  background: var(--ffc-700, #ffc700);
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.08);
+  color: #fff;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.cancel__btn {
+  border-radius: 26px;
+  border: 1px solid var(--ffc-700, #ffc700);
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.08);
+  background-color: transparent;
+  color: var(--ffc-700, #ffc700);
+  text-align: center;
+  font-family: "Inter" !important;
+  font-size: 16px !important;
+  font-style: normal;
+  font-weight: 600 !important;
+  line-height: normal;
+}
+
+/* media quieery  */
+@media (max-width: 1280px) {
+  /* .card__container {
+    margin: 18px;
+  } */
+  /* .inner__container {
+    margin: 32px;
+  } */
+}
+@media (max-width: 1280px) {
+  .inner__container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 740px) {
+  .card__container {
+    /* padding-right: 12px; */
+  }
+  .task__description {
+    width: 100%;
+    margin: 28px;
+  }
+}
+@media (max-width: 580px) {
+  .main__container {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 440px) {
+  .card__container {
+    margin: 0;
+  }
+
+  .detail__container {
+    padding:0px;
+    margin: 24px 18px;
+  }
+}

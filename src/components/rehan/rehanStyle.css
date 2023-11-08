@@ -1,0 +1,171 @@
+.main__container {
+  margin: 40px 10px;
+}
+button.accordion-button.collapsed {
+  background-color: #5a5a5a;
+  outline: none;
+  color: white;
+}
+button.accordion-button.collapsed::after {
+  color: white;
+  outline: none;
+}
+.accordion-button:not(.collapsed) {
+  background-color: white;
+  background-color: none;
+}
+button.accordion-button.collapsed::after {
+  color: white;
+}
+
+.duration {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 16px;
+}
+.duration > span {
+  padding-right: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-right: 1px solid #b7b7b7;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.accord__body.accordion-body {
+  padding: 0;
+
+}
+h2.acc__header.accordion-header {
+    margin: 20px 0px;
+}
+.acc__body {
+  border-radius: 10px;
+  background: #d9d9d9;
+  padding: 24px;
+
+}
+
+.body__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.date__container {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.duration > span:first-child {
+  color: #5a5a5a;
+  cursor: pointer;
+}
+.duration > span:nth-child(2) {
+  color: #b7b7b7;
+  cursor: pointer;
+}
+.duration > span:last-child {
+  color: #b7b7b7;
+  cursor: pointer;
+}
+
+.calnder__container > span {
+  padding: 10px 16px;
+  border-radius: 10px;
+  border: 0.5px solid #cfcfcf;
+  background: #dfdfdf;
+}
+.calnder__container {
+  color: #707070;
+  font-family: " Roboto";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.calnder__container > span > input {
+  border: none;
+  background: none;
+  color: #a4a4a4;
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+.date__container > span {
+  color: #fff;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 16px 34px;
+  border-radius: 55px;
+  background: #757575;
+  cursor: pointer;
+}
+/* focus remove  */
+.acc__header.accordion-header:focus {
+  border: none;
+  outline: none;
+}
+.accord__body.accordion-body {
+  margin-top: 8px;
+}
+.acc__item.accordion-item {
+  border: none;
+}
+.acc__header .accordion-button:not(.collapsed) {
+  background-color: #5a5a5a;
+  color: white;
+}
+.acc__header .accordion-button::after {
+  background-image: url("/public/arrow.png");
+  width: 10px;
+  height: 5px;
+  background-size: cover;
+}
+.acc__header button.accordion-button.collapsed::after {
+  background-image: url("/public/arrow.png");
+  width: 10px;
+  height: 5px;
+  background-size: cover;
+}
+.acc__item.accordion-item .accordion-item {
+  border: unset;
+}
+
+.image__container {
+  border-radius: 10px;
+  background: #f5f5f5;
+  margin-top: 24px;
+}
+.image__container > img {
+  width: 100%;
+  padding: 10px;
+}
+/* Example styles - customize these as needed */
+.custom-accordion {
+  /* Add your styles for the accordion container */
+}
+
+.custom-card {
+  /* Add your styles for the card container */
+}
+
+.custom-card-header {
+  /* Add your styles for the card header */
+}
+
+.custom-card-body {
+  /* Add your styles for the card body */
+}

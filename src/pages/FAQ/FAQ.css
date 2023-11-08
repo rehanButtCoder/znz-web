@@ -1,0 +1,48 @@
+.accordion-item{
+    margin-bottom: 50px !important;
+    border-radius:10px;
+    /* box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); Add box shadow properties here/ */
+    /* border: 1px solid #000; Add border properties here */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.accordion-header{
+    margin-top: 20px;
+    /* border: 1px solid #000; Add border properties here */
+height: 70px;
+}
+
+.faqSearchBtn {
+    position: relative;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.faqSearchBtnField {
+    width: 100%;
+    padding: 18px 145px 18px 60px;
+    font-weight: 400;
+    font-size: 16px;
+background-color: white;
+border-radius: 30px;
+margin-bottom: 40px;
+/* box-shadow: 4px 2px 4px rgba(0, 0, 0, 0.1); Add box shadow properties here */
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+border-color:white;
+
+}
+.taskbutton {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 138px;
+    height: 60px;
+    background-color:#e50914;
+    border-radius: 30px;
+    border-color:white;
+
+}
+.contact-span{
+    color:#e50914;
+
+}

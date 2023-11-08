@@ -1,0 +1,642 @@
+.title > h2 {
+  font-family: "Inter";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 40px;
+}
+.title > h2 > span {
+  color: #ffc700;
+}
+.notification {
+  margin-top: 28px;
+  width: 829px;
+  max-width: 100%;
+  background-color: #fcf6de;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 22px;
+  border-radius: 12px;
+}
+.notify__icon > img {
+  width: 20px;
+  height: 20px;
+}
+.cross > img {
+  width: 12px;
+  height: 12px;
+}
+.cross > img:hover {
+  cursor: pointer;
+}
+.notification > div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 9px;
+}
+.notification__text > h4 {
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+.notification__text > p {
+  font-size: 12px;
+}
+.earnings > span {
+  font-family: "Inter";
+  font-size: 12px;
+  font-style: normal;
+}
+.earnings > span > span {
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* proposal setting  */
+.propsal__setting {
+  margin-top: 40px;
+  margin-bottom: 48px;
+}
+.propsal__setting > h2 {
+  color: #000;
+  font-family: "Inter";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; /* 107.143% */
+}
+.propsal__setting > p {
+  color: #707070;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 12px;
+}
+.propsal__setting > p > span {
+  color: #707070;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+/* job detail  */
+.job__detail {
+  margin-top: 60px;
+  padding-bottom: 40px;
+}
+.job__detail > h2 {
+  color: #000;
+  font-family: "Inter";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; /* 107.143% */
+}
+.job__detail > h4 {
+  margin-top: 20px;
+  margin-bottom: 16px;
+  color: #000;
+  font-family: "Inter";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 150% */
+}
+.chips {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.chips > span {
+  color: #ffc700;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 5px;
+  border: 1.5px solid #ffc700;
+  padding: 5px;
+}
+.para {
+  color: #707070;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  margin: 16px 0px;
+}
+.job__detail > ul {
+  color: #707070;
+  font-family: "Inter";
+  font-size: 16px;
+  padding-left: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+.job__detail > ul > li {
+  margin-top: 12px;
+}
+.view__job__posting {
+  color: #ffc700;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.view__job__posting:hover {
+  cursor: pointer;
+}
+.extra {
+  display: none;
+  animation: 1s all ease-in;
+}
+.more__btn > input[type="checkbox"] {
+  height: 2em;
+  display: block;
+  appearance: none;
+
+}
+.more__btn > label:before {
+  content: "more";
+  color: var(--ffc-700, #ffc700);
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.more__btn > input[type="checkbox"]:checked ~ label:before {
+  content: "less";
+  color: var(--ffc-700, #ffc700);
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.more__btn > .extra:has(~ input[type="checkbox"]:checked) {
+  display: inline;
+}
+
+/* highlights  */
+.highlights {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 40px 0px;
+}
+.highlight {
+  display: flex;
+  align-items: start;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.highlight > div > img {
+  width: 44px;
+}
+.typo > h2 {
+  color: #000;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 175% */
+  letter-spacing: 0.48px;
+  margin-bottom: 0;
+}
+.typo > span {
+  color: #707070;
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  /* line-height: 28px; */
+  letter-spacing: 0.42px;
+}
+/* terms styles  */
+.terms {
+  padding: 60px 0px;
+}
+.terms > h2 {
+  color: #000;
+  font-family: "Inter";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; /* 107.143% */
+}
+.terms > h3 {
+  color: #000;
+  font-family: "Inter";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 140% */
+  letter-spacing: 0.6px;
+}
+.project__lenght {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 20px;
+}
+.chxkbox__typo {
+  color: #000;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 175% */
+  letter-spacing: 0.48px;
+}
+.milestone > p {
+  margin-top: 12px;
+  color: #707070;
+  font-family: "Inter";
+  width: 403px;
+  max-width: 100% !important;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+.how__many__milstone__typo {
+  margin-top: 40px;
+  color: #000;
+  font-family: "Inter";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 140% */
+  letter-spacing: 0.6px;
+}
+.milestone__payload {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin: 24px 0px;
+}
+
+.input__container {
+  width: 403px;
+  max-width: 100%;
+  height: 40px;
+  border: 1px solid #d2d2d2;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 10px;
+}
+.pic__input__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.pic__input__container > img {
+  width: 24px;
+}
+.pic__input__container > span {
+  color: #707070;
+  text-align: right;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.milestone__data > span {
+  color: #000;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 12px;
+  line-height: 28px; /* 175% */
+}
+.input__container > input {
+  border: none;
+  outline: none;
+  color: #707070;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+.add__milstone {
+  color: var(--ffc-700, #ffc700);
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.add__milstone:hover {
+  cursor: pointer;
+}
+/* bidding amount section  */
+.bidding__amount__container {
+  padding: 60px 0px;
+}
+.bidding__amount {
+  display: flex;
+  align-items: center;
+  gap: 31px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.bidding__amount__container > h2 {
+  color: #000;
+  font-family: "Inter";
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px; /* 130.769% */
+}
+.single__amount {
+  width: 378px;
+  max-width: 100%;
+  border: 1px solid #cbcbcb;
+  padding: 12px;
+}
+.single__amount > input {
+  outline: none;
+  border: none;
+  color: #000;
+  font-family: "Inter";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 34px; /* 170% */
+  opacity: 0.25;
+}
+/* how long with this project take  */
+.project__length {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 17px;
+  justify-content: flex-start;
+  padding: 60px 0px;
+}
+.project__length > h3 {
+  color: #000;
+  font-family: "Inter";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 20px */
+}
+.project__input {
+  width: 343px;
+  border: 1px solid #cbcbcb;
+  padding: 11px 20px;
+}
+.project__input > input {
+  outline: none;
+  border: none;
+}
+
+/* boost your proposal  */
+.boost__your__proposal__container > h2 {
+  color: #000;
+  font-family: "Inter";
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px; /* 130.769% */
+}
+.boost__your__proposal__container > p {
+  color: #3d565f;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+.bid__head {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 21px;
+  margin-top: 28px;
+}
+.bid__head > h3 {
+  color: #3d565f;
+  font-family: "Inter";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 120% */
+}
+.bid__head > span {
+  padding: 5px 11px;
+  border-radius: 29px;
+  background: #fff4cc;
+  color: var(--ffc-700, #ffc700);
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.bidding__section > ul {
+  margin-top: 12px;
+  color: #3d565f;
+  font-family: "Inter";
+  padding-left: 1rem;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+.bidding__section > li {
+  margin-bottom: 8px;
+}
+.boost__bid__box {
+  margin-top: 24px;
+  padding: 11px 12px;
+  border-radius: 8px;
+  border: 1px solid #e2e2e2;
+  background: #fafafa;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.boost__bid__box > span {
+  color: #2b2b2b;
+  font-size: 16px;
+  font-family: "Poppins";
+  line-height: 24px;
+}
+.set__bid__btn {
+  margin-top: 24px;
+  border-radius: 8px;
+  border: 1px solid #ffc700;
+  padding: 8px 0px;
+}
+.set__bid__btn > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+.set__bid__btn:hover {
+  cursor: pointer;
+}
+.set__bid__btn > div > span {
+  color: #c59900;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Inter";
+  font-weight: 500;
+}
+.set__bid__btn > div > span:nth-child(1) {
+  font-size: 18px;
+}
+
+/* attachment styling  */
+.cover__letter {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 20px;
+  padding: 40px 0px;
+}
+.cover__letter > span {
+  color: #202020;
+  font-size: 18px;
+  font-family: "Poppins";
+  font-weight: 500;
+  line-height: 100%;
+}
+
+.cover__letter > textarea {
+  border-radius: 5px;
+  border: 1px solid #e2e2e2;
+  background: #fafafa;
+  outline: none;
+  width: 100%;
+  padding: 15px;
+  color: rgba(32, 32, 32, 0.3);
+  font-size: 14px;
+  font-family: "Poppins";
+  resize: none;
+}
+.cover__letter > textarea::placeholder {
+  opacity: 0.30000001192092896;
+}
+
+/* pic upload  */
+
+.attach__containet {
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+.attach__containet > span {
+  color: #000;
+  font-size: 18px;
+  font-family: "Poppins";
+  font-weight: 600;
+  line-height: 100%;
+}
+.attach__containet > p {
+  color: #a8a8a8;
+  font-size: 18px;
+  font-family: "Poppins";
+  font-weight: 500;
+  line-height: 18px;
+  margin: 10px 0px 20px 0px;
+}
+.upload__container:hover {
+  cursor: pointer;
+}
+.upload__container > img {
+  width: 661px;
+  height: 338px;
+}
+
+/* link bio  */
+.link__bio > h2 {
+  color: #000;
+  font-family: "Inter";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 20px */
+}
+.link__container {
+  width: 663px;
+  max-width: 100%;
+  height: 48px;
+  border-radius: 10px;
+  border: 1px solid #cbcbcb;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 24px;
+}
+.link__container > input {
+  opacity: 0.4000000059604645;
+  outline: none;
+  border: none;
+  color: #000;
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 14px */
+}
+
+/* media query  */
+@media (max-width: 420px) {
+  .notification > div {
+    flex-direction: column;
+  }
+  .notification {
+    position: relative;
+  }
+  .cross > img {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+  }
+  .milestone > p {
+    width: 100%;
+  }
+  .input__container {
+    width: 350px;
+  }
+  .bidding__amount__container > h2 {
+    font-size: 16px;
+  }
+  .single__amount {
+    padding: 8px;
+  }
+  .single__amount > input {
+    font-size: 16px;
+  }
+}

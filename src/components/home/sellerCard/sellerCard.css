@@ -1,0 +1,280 @@
+.slick-next:before,
+.slick-prev:before {
+  line-height: 1;
+  opacity: 0.75;
+  color: #ffc700;
+  font-size: 30px;
+}
+
+.slick-prev {
+  left: 44%;
+  bottom: -48px;
+  top: unset;
+}
+
+.slick-next {
+  right: 45%;
+  bottom: -48px;
+  top: unset;
+}
+
+.card-yellow-stars {
+  display: flex;
+}
+
+.seller-card-main-container {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  width: 100%;
+  height: 473px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 345px;
+  cursor: pointer !important; 
+}
+
+.card-container:hover { 
+  background-image: url("/public/asserts/images/view-all-students/card-hover.png");
+  z-index: -99;
+  background-size: cover;
+ 
+}
+
+.inner-card-container {
+  padding: 30px;
+}
+
+/* .inner-card-container{
+    max-width: 336px;
+
+    height: 417px;
+
+} */
+
+.inner-card-content1 {
+  /* min-width: 336px;
+    min-height: 160px; */
+  display: flex;
+  gap: 20px;
+}
+
+.inner-card-content2 {
+  /* min-width: 336px;
+    min-height: 160px; */
+  margin-top: 15px;
+}
+
+.iner-c1-left {
+  width: 34%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.iner-c1-right {
+  width: 66%;
+}
+
+.inner-left-img-box {
+  width: 101.925px;
+  height: 101.93px;
+  flex-shrink: 0;
+}
+
+.inner-left-img-box img {
+  width: 92.659px;
+  height: 92.664px;
+  flex-shrink: 0;
+  border-radius: 92.664px;
+  border: 5px solid #fff;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
+}
+
+.title-box {
+  display: flex;
+  width: 105.285px;
+  flex-direction: column;
+  flex-shrink: 0;
+  margin-bottom: 2px;
+}
+
+.card-seller-name {
+  margin-top: 10px;
+}
+
+.card-seller-name h5 {
+  color: #000;
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 13px;
+}
+
+.cntry-cntnt {
+  color: #000;
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.seller-content-level {
+  color: #707070;
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 6px;
+}
+
+.title-box p {
+  color: #707070;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.payment-box-p-hr {
+  width: 79.524px;
+  height: 27px;
+  flex-shrink: 0;
+  border-radius: 17px;
+  border: 1.5px solid var(--ffc-700, #ffc700);
+  background: #fff;
+  text-align: center;
+  color: #ffc700;
+  margin-top: 5px;
+}
+
+.card-yellow-stars img {
+  width: 20px;
+  height: 16px;
+  flex-shrink: 0;
+  margin-top: 6px;
+}
+
+.hash-tags {
+  /* width: 376px; */
+  color: #707070;
+  font-family: Manrope;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  margin-bottom: 12px;
+}
+
+.skills {
+  margin-top: 10px;
+  margin-bottom: 12px;
+}
+
+.all-skill {
+  border-radius: 5px;
+  border: 1.5px solid var(--ffc-700, #ffc700);
+  background: #fff;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  color: var(--ffc-700, #ffc700);
+  text-align: center;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 9px;
+}
+
+.about-top-hdr {
+  color: #707070;
+  font-family: Manrope;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.about-m-cntnt {
+  color: #bcbcbc;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 12px;
+}
+
+/* last container */
+.inner-card-content3 {
+  /* min-width: 336px; */
+  margin-top: 30px;
+}
+
+.book-now-svd-job {
+  border-radius: 50px;
+  border: 1px solid  #FFC700;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.08);
+  padding: 10px 20px;
+  color:  #FFC700;
+text-align: center;
+font-family: 'Manrope';
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+
+@media screen and (max-width: 400px) {
+  .inner-card-content1 {
+    display: flex;
+    gap: 15px;
+  }
+
+  .inner-card-container {
+    padding: 12px;
+  }
+
+  .book-now-svd-job {
+    width: 70px;
+    height: 40px;
+    padding: 8px 15px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    border: 1px solid var(--ffc-700, #ffc700);
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.08);
+    color: var(--ffc-700, #ffc700);
+    text-align: center;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+  }
+
+  .skills {
+    margin-top: 10px;
+    margin-bottom: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}

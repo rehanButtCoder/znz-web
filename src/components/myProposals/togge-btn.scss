@@ -1,0 +1,348 @@
+// .switch-button {
+//   background: rgba(255, 255, 255, 0.56);
+//   border-radius: 12px;
+//   overflow: hidden;
+//   padding-right: 120px;
+//   position: relative;
+//   color: #000;
+//   font-size: 16px;
+//   opacity: 0.800000011920929;
+//   font-family: "Inter";
+//   font-style: normal;
+//   font-weight: 500;
+//   line-height: 100%;
+
+//   &:before {
+//     content: "Pending Jobs";
+//     position: absolute;
+//     top: 0;
+//     bottom: 0;
+//     right: 0;
+//     width: 120px;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     z-index: 3;
+//     pointer-events: none;
+//   }
+
+//   &-checkbox {
+//     cursor: pointer;
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     bottom: 0;
+//     width: 100%;
+//     height: 100%;
+//     opacity: 0;
+//     z-index: 2;
+
+//     &:checked + .switch-button-label:before {
+//       transform: translateX(120px);
+//       transition: transform 300ms linear;
+//     }
+
+//     & + .switch-button-label {
+//       position: relative;
+//       padding: 15px;
+//       display: block;
+//       user-select: none;
+//       pointer-events: none;
+
+//       &:before {
+//         content: "";
+//         height: 100%;
+//         width: 100%;
+//         position: absolute;
+//         left: 0;
+//         top: 0;
+//         border-radius: 12px;
+//         background: #ffc700;
+//         transform: translateX(0);
+//         transition: transform 300ms;
+//       }
+
+//       .switch-button-label-span {
+//         position: relative;
+//         color: black !important;
+//       }
+//     }
+//   }
+// }
+// @media (max-width: 780px) {
+//   .switch-button {
+   
+//   }
+// }
+
+// // accordation handle
+// input {
+//   position: absolute;
+//   opacity: 0;
+//   z-index: -1;
+// }
+// .tabs {
+//   border-radius: 8px;
+//   overflow: hidden;
+//   // box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5);
+// }
+// .tab {
+//   width: 100%;
+//   color: white;
+//   overflow: hidden;
+//   &-label {
+//     display: flex;
+//     justify-content: space-between;
+//     color: #2b2f30;
+//     font-size: 20px;
+//     font-family: "Poppins";
+//     font-style: normal;
+//     font-weight: 500;
+//     line-height: 30px;
+//     border-radius: 15px;
+//     // border: 1px solid #f8f8f8;
+//     background: #fff;
+//     box-shadow: 0px 4px 20px 3px rgba(0, 0, 0, 0.02);
+//     padding: 28px;
+//     cursor: pointer;
+//     /* Icon */
+//     &:hover {
+//       // background: darken(#ffc700, 10%);
+//     }
+//     &::after {
+//       content: "\276F";
+//       width: 1em;
+//       height: 1em;
+//       text-align: center;
+//       transition: all 0.35s;
+//     }
+//   }
+//   &-content {
+
+//     margin-top: -10px;
+//     max-height: 0;
+//     padding: 0 1em;
+//     color: #ffc700;
+//     background: white;
+//     transition: all 0.35s;
+//   }
+//   &-close {
+//     display: flex;
+//     justify-content: flex-end;
+//     padding: 1em;
+//     font-size: 0.75em;
+//     background: none;
+//     cursor: pointer;
+//     &:hover {
+
+//     }
+//   }
+// }
+
+// // :checked
+// input:checked {
+//   + .tab-label {
+//     &::after {
+//       transform: rotate(90deg);
+//     }
+//   }
+//   ~ .tab-content {
+//     max-height: 100vh;
+//     padding: 1em;
+//   }
+// }
+// @media (max-width: 780px) {
+//   input {
+//     position: absolute;
+//     opacity: 0;
+//     z-index: -1;
+//   }
+//   .tabs {
+//     border-radius: 8px;
+//     overflow: hidden;
+//     // box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5);
+//   }
+//   .tab {
+//     width: 100%;
+//     color: white;
+//     overflow: hidden;
+//     &-label {
+//       display: flex;
+//       justify-content: space-between;
+//       color: #2b2f30;
+//       font-size: 20px;
+//       font-family: "Poppins";
+//       font-style: normal;
+//       font-weight: 500;
+//       line-height: 30px;
+//       border-radius: 15px;
+//       // border: 1px solid #f8f8f8;
+//       background: #fff;
+//       box-shadow: 0px 4px 20px 3px rgba(0, 0, 0, 0.02);
+//       padding: 28px;
+//       cursor: pointer;
+//       /* Icon */
+//       &:hover {
+//         // background: darken(#ffc700, 10%);
+//       }
+//       &::after {
+//         content: "\276F";
+//         width: 1em;
+//         height: 1em;
+//         text-align: center;
+//         transition: all 0.35s;
+//       }
+//     }
+//     &-content {
+//       margin-top: -10px;
+//       max-height: 100%;
+//       padding: 0 1em;
+//       color: #ffc700;
+//       background: white;
+//       transition: all 0.35s;
+//     }
+  
+//   }
+// }
+// // table css 
+// .table-wrapper{
+//   padding: 10px;
+// }
+// .fl-table {
+//   border-radius: 5px;
+//   font-size: 12px;
+//   font-weight: normal;
+//   border: none;
+//   border-collapse: collapse;
+//   width: 100%;
+//   max-width: 100%;
+//   white-space: nowrap;
+//   background-color: white;
+// }
+
+// .fl-table td, .fl-table th {
+//   text-align: start;
+//   padding-bottom: 20px;
+// }
+
+// .fl-table td {
+//   color: #000;
+//   font-size: 16px;
+//   font-family: 'Inter';
+//   font-style: normal;
+//   font-weight: 400;
+//   line-height: 100%;
+//   opacity: 0.44999998807907104;
+//   padding-top: 22px;
+
+// }
+
+// .fl-table thead th {
+//   color: #000;
+// font-size: 16px;
+// font-family: 'Inter';
+// font-style: normal;
+// font-weight: 500;
+// line-height: 100%;
+// }
+// .fl-table thead{
+//   border-bottom: .5px solid #000;
+// }
+
+// .fl-table thead th:nth-child(odd) {
+//   color: #000;
+//   font-size: 16px;
+//   font-family: 'Inter';
+//   font-style: normal;
+//   font-weight: 500;
+//   line-height: 100%;
+// }
+// .hr__style{
+//   opacity: 0.25;
+// background: #000;
+// width: 100%;
+// height: 1px;
+// }
+// .active__status{
+//   padding: 10px 22px;
+//   border-radius: 6px;
+// opacity: 0.20000000298023224;
+// background:  #FFC700;
+
+
+// }
+// .active__status > span{
+//   color:  #2b2f30;
+//   font-size: 16px;
+// font-family: 'Inter';
+// font-style: normal;
+// font-weight: 500;
+// line-height: 100%;
+// opacity: 1 !important;
+// }
+
+// /* Responsive */
+
+// @media (max-width: 767px) {
+//   .fl-table {
+//       display: block;
+//       width: 100%;
+//   }
+//   .table-wrapper:before{
+//       content: "Scroll horizontally >";
+//       display: block;
+//       text-align: right;
+//       font-size: 11px;
+//       color: white;
+//       padding: 0 0 10px;
+//   }
+//   .fl-table thead, .fl-table tbody, .fl-table thead th {
+//       display: block;
+//   }
+//   .fl-table thead th:last-child{
+//       border-bottom: none;
+//   }
+//   .fl-table thead {
+//       float: left;
+//   }
+//   .fl-table tbody {
+//       width: auto;
+//       position: relative;
+//       overflow-x: auto;
+//   }
+//   .fl-table td, .fl-table th {
+//       padding: 20px .625em .625em .625em;
+//       height: 60px;
+//       vertical-align: middle;
+//       box-sizing: border-box;
+//       overflow-x: hidden;
+//       overflow-y: auto;
+//       width: 120px;
+//       font-size: 13px;
+//       text-overflow: ellipsis;
+//   }
+//   .fl-table thead th {
+//       text-align: left;
+//       border-bottom: 1px solid #f7f7f9;
+//   }
+//   .fl-table tbody tr {
+//       display: table-cell;
+//   }
+//   .fl-table tbody tr:nth-child(odd) {
+//       background: none;
+//   }
+//   .fl-table tr:nth-child(even) {
+//       background: transparent;
+//   }
+//   .fl-table tr td:nth-child(odd) {
+//       background: #F8F8F8;
+//       border-right: 1px solid #E6E4E4;
+//   }
+//   .fl-table tr td:nth-child(even) {
+//       border-right: 1px solid #E6E4E4;
+//   }
+//   .fl-table tbody td {
+//       display: block;
+//       text-align: center;
+//   }
+// }
